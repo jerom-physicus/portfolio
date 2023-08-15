@@ -67,6 +67,9 @@ nav ul li a {
   line-height: 35px;
   font-size: 20px;
 }
+.profile-img2 {
+  display: none;
+}
 .profile-img {
   position: absolute;
   height: 450px;
@@ -114,15 +117,16 @@ nav ul li a {
   }
 
   nav {
-    position: relative;
-    height: 100px;
+    position: fixed;
     height: 500px;
-    background-color: aliceblue;
-    transform: translateY(-100%);
+    width: 100%;
+    background-color: rgb(255, 255, 255);
     transition: 0.4s;
+    z-index: 1;
+    left: 0;
   }
   nav ul {
-    position: absolute;
+    position: relative;
     top: 80px;
     display: flex;
     flex-direction: column;
@@ -130,7 +134,7 @@ nav ul li a {
     align-items: center;
     list-style: none;
     text-align: center;
-    transform: translate(-50%);
+    transform: translate(70%);
   }
   nav ul li a {
     color: rgb(0, 0, 0);
@@ -138,7 +142,7 @@ nav ul li a {
     font-size: 25px;
     font-weight: 600;
     line-height: 80px;
-  }
+S  }
   .menu-icon {
     position: absolute;
     display: block;
@@ -177,6 +181,7 @@ nav ul li a {
     font-size: 20px;
   }
   .profile-img2 {
+    display: block;
     height: 250px;
     width: 250px;
     object-fit: cover;
