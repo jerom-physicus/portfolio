@@ -104,6 +104,424 @@ nav ul li a {
   border-style: none;
   left: 190px;
 }
+.about-page {
+  position: relative;
+  top: 650px;
+}
+.about-h {
+  position: relative;
+  font-size: 50px;
+  text-align: center;
+}
+.about-box {
+  position: relative;
+  top: 80px;
+  transform: translate(50%);
+  width: 50%;
+  height: 300px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.325);
+}
+.about-box p {
+  padding: 50px;
+  line-height: 30px;
+  font-size: 17px;
+}
+.Exp-in {
+  position: relative;
+  top: 900px;
+}
+.Exp-in h1 {
+  font-size: 50px;
+  text-align: center;
+}
+.logos {
+  position: relative;
+  top: 60px;
+  width: 50%;
+  transform: translate(50%);
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  gap: 15%;
+}
+.logos img {
+  position: relative;
+  width: 60px;
+  height: 60px;
+}
+.logos2 {
+  position: absolute;
+  top: 100px;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  gap: 15%;
+  transform: translate(35%);
+}
+.logos2 img:nth-child(1) {
+  width: 135px;
+  height: 90px;
+}
+.logos2 img:nth-child(2) {
+  position: relative;
+  top: 18px;
+  width: 60px;
+  height: 60px;
+}
+.logos2 img:nth-child(3) {
+  top: 18px;
+
+  width: 60px;
+  height: 60px;
+}
+.logos3 {
+  position: absolute;
+  top: 230px;
+  display: flex;
+  gap: 50%;
+  transform: translate(250%);
+}
+.projects {
+  position: relative;
+  top: 1000px;
+}
+.projects h1 {
+  text-align: center;
+  font-size: 50px;
+}
+.project-1 {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.355);
+  width: 356px;
+  height: 530px;
+  border-radius: 35px;
+  border: #ffffff solid 1px;
+  top: 60px;
+  left: 20%;
+}
+.project-1 p {
+  width: 350px;
+  padding: 15px;
+}
+.lan {
+  display: flex;
+  gap: 15px;
+}
+.lan :nth-child(1) {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.236);
+  width: 80px;
+  padding: auto;
+  text-align: center;
+  height: 30px;
+  font-size: 16px;
+  border-radius: 7px;
+  color: #000000;
+  padding-top: 5px;
+  left: 20px;
+  border: #ffffff solid 1px;
+  font-weight: 600;
+}
+.lan :nth-child(2) {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.236);
+  width: 80px;
+  padding: auto;
+  text-align: center;
+  height: 30px;
+  font-size: 16px;
+  border-radius: 7px;
+  color: #000000;
+  padding-top: 5px;
+  left: 20px;
+  border: #ffffff solid 1px;
+  font-weight: 600;
+}
+.lan :nth-child(3) {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.236);
+  width: 100px;
+  padding: auto;
+  text-align: center;
+  height: 30px;
+  font-size: 16px;
+  border-radius: 7px;
+  color: #ffffff;
+  padding-top: 5px;
+  left: 20px;
+  color: black;
+  border: #ffffff solid 1px;
+  font-weight: 600;
+}
+.lan2 {
+  position: relative;
+  top: 10px;
+  display: flex;
+  gap: 15px;
+}
+.lan2 :nth-child(1) {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.236);
+  color: #000;
+  width: 100px;
+  padding: auto;
+  text-align: center;
+  height: 30px;
+  font-size: 16px;
+  border-radius: 7px;
+  padding-top: 5px;
+  left: 20px;
+  border: #ffffff solid 1px;
+  font-weight: 600;
+}
+.lan2 :nth-child(2) {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.236);
+  width: 80px;
+  padding: auto;
+  text-align: center;
+  height: 30px;
+  font-size: 16px;
+  border-radius: 7px;
+  color: #000000;
+  padding-top: 5px;
+  left: 20px;
+  border: #ffffff solid 1px;
+  font-weight: 600;
+}
+.lan2 :nth-child(3) {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.236);
+  width: 100px;
+  padding: auto;
+  text-align: center;
+  height: 30px;
+  font-size: 16px;
+  border-radius: 7px;
+  padding-top: 5px;
+  left: 20px;
+  color: black;
+  border: #ffffff solid 1px;
+  font-weight: 600;
+}
+
+.project-2 {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.355);
+  width: 356px;
+  height: 530px;
+  border-radius: 35px;
+  border: #ffffff solid 1px;
+  top: 120px;
+  right: 20%;
+}
+.project-2 p {
+  width: 350px;
+  padding: 15px;
+}
+.lan {
+  display: flex;
+  gap: 15px;
+}
+.lan :nth-child(1) {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.236);
+  width: 80px;
+  padding: auto;
+  text-align: center;
+  height: 30px;
+  font-size: 16px;
+  border-radius: 7px;
+  color: #000000;
+  padding-top: 5px;
+  left: 20px;
+  border: #ffffff solid 1px;
+  font-weight: 600;
+}
+.lan :nth-child(2) {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.236);
+  width: 80px;
+  padding: auto;
+  text-align: center;
+  height: 30px;
+  font-size: 16px;
+  border-radius: 7px;
+  color: #000000;
+  padding-top: 5px;
+  left: 20px;
+  border: #ffffff solid 1px;
+  font-weight: 600;
+}
+.lan :nth-child(3) {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.236);
+  width: 100px;
+  padding: auto;
+  text-align: center;
+  height: 30px;
+  font-size: 16px;
+  border-radius: 7px;
+  color: #ffffff;
+  padding-top: 5px;
+  left: 20px;
+  color: black;
+  border: #ffffff solid 1px;
+  font-weight: 600;
+}
+.project-3 {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.355);
+  width: 356px;
+  height: 600px;
+  border-radius: 35px;
+  border: #ffffff solid 1px;
+  top: 120px;
+  left: 20%;
+}
+.project-3 p {
+  position: absolute;
+  top: 430px;
+  width: fit-content;
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 0px 0px 30px 30px;
+}
+.project-3 .lan {
+  position: relative;
+  top: 35px;
+}
+.contact {
+  position: relative;
+  top: 1400px;
+  height: 800px;
+  background-color: #ffffff;
+}
+.contact h1 {
+  position: relative;
+  font-size: 50px;
+  text-align: center;
+  top: 30px;
+}
+.name {
+  display: flex;
+  width: 447px;
+  padding: 14px 283px 23px 17px;
+  align-items: center;
+  border-radius: 7px;
+  background: #d3d3d3;
+  font-size: 20px;
+  text-align: center;
+  border-style: none;
+  padding-top: 30px;
+  height: 55px;
+  color: white;
+}
+.email {
+  margin-top: 30px;
+  display: flex;
+  width: 447px;
+  padding: 14px 283px 23px 17px;
+  align-items: center;
+  border-radius: 7px;
+  background: #d3d3d3;
+  font-size: 20px;
+  text-align: center;
+  border-style: none;
+  padding-top: 30px;
+  height: 55px;
+  color: white;
+}
+.message {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  width: 447px;
+  padding: 14px 283px 23px 17px;
+  align-items: center;
+  border-radius: 7px;
+  background: #d3d3d3;
+  font-size: 20px;
+  text-align: center;
+  border-style: none;
+  padding-top: 30px;
+  height: 155px;
+  color: white;
+}
+.input-box {
+  position: relative;
+  top: 800px;
+  left: 35%;
+  display: flex;
+  width: fit-content;
+
+  flex-direction: column;
+}
+.send-btn {
+  width: 188px;
+  height: 56.4px;
+  background: #815cfc;
+  box-shadow: 0px 4px 17px 0px rgba(149, 49, 255, 0.29);
+  border-radius: 8px;
+  color: white;
+  font-size: 20px;
+  border-style: none;
+  margin-bottom: 30px;
+}
+.socials {
+  position: relative;
+  transform: translate(130%);
+  z-index: 1;
+  top: 800px;
+  width: fit-content;
+}
+.socials img {
+  position: relative;
+  width: 40px;
+  margin: 30px;
+  opacity: 60%;
+}
+.summa {
+  color: #000000;
+  position: relative;
+  top: 860px;
+  left: 35%;
+  width: fit-content;
+}
+
+.profile-img {
+  transform: translateY(30%);
+  transition: 1.5s;
+  opacity: 0;
+  filter: blur(10px);
+}
+.more-btn {
+  transform: translateY(30%);
+  transition: 1.5s;
+  opacity: 0;
+}
+.page1-h {
+  transform: translateY(30%);
+  transition: 1.5s;
+  opacity: 0;
+}
+.page1-p {
+  transform: translateY(30%);
+  transition: 1s;
+  opacity: 0;
+}
+.about-h {
+  transform: translateY(30%);
+  transition: 1.5s;
+  opacity: 0;
+}
+.show {
+  opacity: 100%;
+  transform: translateY(0%);
+  filter: blur(0);
+}
+
 @media only screen and (max-width: 600px) {
   .bg {
     width: 100%;
@@ -221,5 +639,42 @@ nav ul li a {
     border-style: none;
     left: 190px;
     display: none;
+  }
+  .profile-img {
+    transform: translateY(30%);
+    transition: 1.5s;
+    opacity: 0;
+    filter: blur(10px);
+  }
+  .profile-img2 {
+    transform: translateY(30%);
+    transition: 1.5s;
+    opacity: 0;
+    filter: blur(10px);
+  }
+  .more-btn {
+    transform: translateY(30%);
+    transition: 1.5s;
+    opacity: 0;
+  }
+  .about-h {
+    transform: translateY(30%);
+    transition: 1.5s;
+    opacity: 0;
+  }
+  .page1-h {
+    transform: translateY(30%);
+    transition: 1.5s;
+    opacity: 0;
+  }
+  .page1-p {
+    transform: translateY(30%);
+    transition: 1s;
+    opacity: 0;
+  }
+  .show {
+    opacity: 100%;
+    transform: translateY(0%);
+    filter: blur(0);
   }
 }
