@@ -22,6 +22,8 @@ let target5 = document.querySelector(".profile-img2");
 let target6 = document.querySelector(".about-h");
 let target7 = document.querySelector(".about-box");
 let target8 = document.querySelector(".socials-page-1");
+let target9 = document.querySelector(".exp-h");
+let target10 = document.querySelector(".projects-h1");
 observer.observe(target);
 observer.observe(target2);
 observer.observe(target3);
@@ -30,6 +32,8 @@ observer.observe(target5);
 observer.observe(target6);
 observer.observe(target7);
 observer.observe(target8);
+observer.observe(target9);
+observer.observe(target10);
 
 const observer2 = new IntersectionObserver(handleIntersection2);
 function handleIntersection2(entries) {

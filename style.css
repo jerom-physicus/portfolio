@@ -613,6 +613,7 @@ nav ul li a {
     display: none;
   }
   .about-h {
+    top: 30px;
     font-size: 40px;
   }
   .about-box {
@@ -623,7 +624,7 @@ nav ul li a {
     font-size: 40px;
   }
   .logos {
-    width: 80%;
+    width: 93%;
     gap: 10%;
   }
 
@@ -659,8 +660,8 @@ nav ul li a {
     height: 40px;
   }
   .logos3 {
-    top: 200px;
-    transform: translate(160%);
+    top: 190px;
+    transform: translate(130%);
   }
   .projects {
     top: 900px;
@@ -673,26 +674,43 @@ nav ul li a {
   .project-1 {
     position: relative;
     background-color: rgba(255, 255, 255, 0.355);
-    width: 356px;
+    width: 90%;
     height: 530px;
     border-radius: 35px;
     border: #ffffff solid 1px;
     top: 60px;
     left: 0%;
   }
+  .project-1 img {
+    width: 100%;
+  }
+  .project-2 img {
+    width: 100%;
+  }
+  .lan2 :nth-child(3) {
+    width: 80px;
+  }
+  .project-3 img {
+    width: 100%;
+  }
   .project-2 {
     position: relative;
     left: 0%;
+    width: 90%;
   }
   .project-3 {
     position: relative;
     top: 170px;
     left: 0%;
+    width: 90%;
+  }
+  .project-3 h6 {
+    top: 50px;
   }
   .input-box {
     top: 750px;
     left: 30px;
-    width: 100%;
+    width: 91%;
   }
   .input-box input {
     font-size: 15px;

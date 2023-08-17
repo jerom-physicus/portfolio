@@ -31,6 +31,16 @@
   transition: 1.5s;
   opacity: 0;
 }
+.exp-h {
+  transform: translateY(30%);
+  transition: 1.5s;
+  opacity: 0;
+}
+.projects-h1 {
+  transform: translateY(30%);
+  transition: 1.5s;
+  opacity: 0;
+}
 .socials-page-1 {
   transform: translateY(30%);
   transition: 1.5s;
@@ -112,5 +122,10 @@
     opacity: 100%;
     transform: translateY(0%);
     filter: blur(0);
+  }
+}
+@media (prefers-reduce-motion) {
+  .project-2 {
+    transition: none;
   }
 }
