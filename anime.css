@@ -10,23 +10,29 @@
   opacity: 0;
   filter: blur(10px);
 }
+.about-box-D {
+  transform: translateY(30%);
+  transition: 1.5s;
+  opacity: 0;
+  filter: blur(10px);
+}
 
-.more-btn {
+.more-btn-D {
   transform: translateY(30%);
   transition: 1.5s;
   opacity: 0;
 }
-.page1-h {
+.page1-h-D {
   transform: translateY(30%);
   transition: 1.5s;
   opacity: 0;
 }
-.page1-p {
+.page1-p-D {
   transform: translateY(30%);
   transition: 1s;
   opacity: 0;
 }
-.about-h {
+.about-h-D {
   transform: translateY(30%);
   transition: 1.5s;
   opacity: 0;
@@ -36,7 +42,17 @@
   transition: 1.5s;
   opacity: 0;
 }
+.exp-h-D {
+  transform: translateY(30%);
+  transition: 1.5s;
+  opacity: 0;
+}
 .projects-h1 {
+  transform: translateY(30%);
+  transition: 1.5s;
+  opacity: 0;
+}
+.projects-h1-D {
   transform: translateY(30%);
   transition: 1.5s;
   opacity: 0;
@@ -46,11 +62,27 @@
   transition: 1.5s;
   opacity: 0;
 }
+.socials-page-1-D {
+  transform: translateY(30%);
+  transition: 1.5s;
+  opacity: 0;
+}
+.profile-img-D {
+  transform: translateY(30%);
+  transition: 1s;
+  opacity: 0;
+}
+.logos-D {
+  transform: translateY(30%);
+  transition: 1s;
+  opacity: 0;
+}
 .show {
   opacity: 100%;
   transform: translateY(0%);
   filter: blur(0);
 }
+
 .logos {
   transform: translateY(50%);
   opacity: 0;
@@ -67,13 +99,31 @@
   transition: 1s;
   filter: blur(10px);
 }
+.project-2 {
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: 1s;
+  filter: blur(10px);
+}
+.project-1-D {
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: 1s;
+  filter: blur(10px);
+}
 .project-3 {
   transform: translateX(-100%);
   opacity: 0;
   transition: 1s;
   filter: blur(10px);
 }
-.project-2 {
+.project-3-D {
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: 1s;
+  filter: blur(10px);
+}
+.project-2-D {
   transform: translateX(-100%);
   opacity: 0;
   transition: 1s;
@@ -85,6 +135,7 @@
   transform: translateY(0%);
   filter: blur(0);
 }
+
 @media only screen and (max-width: 600px) {
   .profile-img {
     transform: translateY(30%);
@@ -114,6 +165,11 @@
     opacity: 0;
   }
   .page1-p {
+    transform: translateY(30%);
+    transition: 1s;
+    opacity: 0;
+  }
+  profile-img-D {
     transform: translateY(30%);
     transition: 1s;
     opacity: 0;

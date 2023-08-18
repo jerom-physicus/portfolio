@@ -346,6 +346,7 @@ nav ul li a {
   border: #ffffff solid 1px;
   font-weight: 600;
 }
+
 .lan :nth-child(2) {
   position: relative;
   background-color: rgba(255, 255, 255, 0.236);
