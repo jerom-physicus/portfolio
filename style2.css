@@ -8,7 +8,10 @@
 body {
   width: 100%;
 }
-.bg {
+.dark-mode {
+  color: #ffffff;
+}
+.bg2 {
   position: fixed;
   height: 100%;
   width: 100%;
@@ -17,13 +20,14 @@ body {
 .close-icon {
   display: none;
 }
-.menu-icon {
+.menu-icon2 {
   display: none;
 }
 header h1 {
   position: absolute;
   top: 35px;
   left: 30px;
+  color: #ffffff;
 }
 header {
   position: relative;
@@ -52,13 +56,14 @@ nav ul li a {
   height: 500vh;
   width: 100%;
 }
-.page-1 h1 {
+.page-21 h1 {
   position: relative;
   font-size: 65px;
   top: 80px;
   font-weight: 600;
   left: 140px;
   width: fit-content;
+  color: white;
 }
 .page-1 p {
   position: relative;
@@ -85,9 +90,6 @@ nav ul li a {
   left: 140px;
   top: 120px;
   width: fit-content;
-}
-.light-mode {
-  display: none;
 }
 .socials-page-1 img {
   position: relative;
@@ -141,13 +143,12 @@ nav ul li a {
 }
 .Exp-in h1 {
   font-size: 50px;
-  text-align: center;
 }
 .logos {
   position: relative;
   top: 60px;
   width: 50%;
-  transform: translate(50%);
+  transform: translate(0%);
   height: 500px;
   display: flex;
   flex-direction: row;
@@ -201,7 +202,7 @@ nav ul li a {
 .project-1 {
   position: relative;
   background-color: rgba(255, 255, 255, 0.355);
-  width: 356px;
+  width: 357px;
   height: 530px;
   border-radius: 35px;
   border: #ffffff solid 1px;
@@ -225,7 +226,6 @@ nav ul li a {
   height: 30px;
   font-size: 16px;
   border-radius: 7px;
-  color: #000000;
   padding-top: 5px;
   left: 20px;
   border: #ffffff solid 1px;
@@ -240,7 +240,6 @@ nav ul li a {
   height: 30px;
   font-size: 16px;
   border-radius: 7px;
-  color: #000000;
   padding-top: 5px;
   left: 20px;
   border: #ffffff solid 1px;
@@ -394,31 +393,32 @@ nav ul li a {
   width: fit-content;
   padding: 15px;
   background-color: #ffffff;
+  color: #000;
   border-radius: 0px 0px 30px 30px;
 }
 .project-3 .lan {
   position: relative;
   top: 35px;
 }
-.contact {
+.contact-D {
   position: relative;
   top: 1400px;
   height: 800px;
-  background-color: #ffffff;
+  background-color: #000000;
 }
-.contact h1 {
+.contact-D h1 {
   position: relative;
   font-size: 50px;
   text-align: center;
   top: 30px;
 }
-.name {
+.name2 {
   display: flex;
   width: 447px;
   padding: 14px 283px 23px 17px;
   align-items: center;
   border-radius: 7px;
-  background: #d3d3d3;
+  background: #1e1c1c;
   font-size: 20px;
   text-align: center;
   border-style: none;
@@ -426,14 +426,14 @@ nav ul li a {
   height: 55px;
   color: white;
 }
-.email {
+.email2 {
   margin-top: 30px;
   display: flex;
   width: 447px;
   padding: 14px 283px 23px 17px;
   align-items: center;
   border-radius: 7px;
-  background: #d3d3d3;
+  background: #1e1c1c;
   font-size: 20px;
   text-align: center;
   border-style: none;
@@ -441,7 +441,7 @@ nav ul li a {
   height: 55px;
   color: white;
 }
-.message {
+.message2 {
   margin-top: 30px;
   margin-bottom: 30px;
   display: flex;
@@ -449,7 +449,7 @@ nav ul li a {
   padding: 14px 283px 23px 17px;
   align-items: center;
   border-radius: 7px;
-  background: #d3d3d3;
+  background: #1e1c1c;
   font-size: 20px;
   text-align: center;
   border-style: none;
@@ -462,8 +462,7 @@ nav ul li a {
   top: 800px;
   left: 35%;
   display: flex;
-  width: 50%;
-
+  width: fit-content;
   flex-direction: column;
 }
 .send-btn {
@@ -539,7 +538,7 @@ nav ul li a {
     font-weight: 600;
     line-height: 80px;
   }
-  .menu-icon {
+  .menu-icon2 {
     position: absolute;
     display: block;
     top: 18px;
@@ -714,27 +713,28 @@ nav ul li a {
   .input-box {
     top: 750px;
     left: 30px;
-    width: 91%;
+    width: 80%;
+    background-color: #815cfc;
   }
   .input-box input {
     font-size: 15px;
     text-align: left;
     padding-left: 20px;
   }
-  .name {
+  .name2 {
     padding: 0;
     left: 20px;
-    width: 85%;
+    width: 100%;
   }
-  .email {
+  .email2 {
     padding: 0;
     left: 20px;
-    width: 85%;
+    width: 100%;
   }
-  .message {
+  .message2 {
     padding: 0;
     left: 20px;
-    width: 85%;
+    width: 100%;
   }
   .send-btn {
     width: 140px;
@@ -745,11 +745,11 @@ nav ul li a {
     z-index: 1;
     position: relative;
     top: 750px;
-    transform: translate(20%);
+    transform: translate(15%);
   }
   .socials img {
     position: relative;
-    width: 40px;
+    width: 35px;
     margin: 15px;
   }
   .summa {
