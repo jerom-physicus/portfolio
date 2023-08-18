@@ -512,7 +512,7 @@ nav ul li a {
   }
 
   nav {
-    position: fixed;
+    position: absolute;
     height: 500px;
     width: 100%;
     background-color: rgb(255, 255, 255);

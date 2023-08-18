@@ -5,8 +5,12 @@
   font-family: "Work Sans", sans-serif;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   width: 100%;
+  scroll-behavior: smooth;
 }
 .bg {
   position: fixed;
@@ -519,7 +523,7 @@ nav ul li a {
   }
 
   nav {
-    position: fixed;
+    position: absolute;
     height: 500px;
     width: 100%;
     background-color: rgb(255, 255, 255);
