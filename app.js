@@ -13,7 +13,7 @@ document.getElementById("close2").addEventListener("click", function () {
 });
 const observer = new IntersectionObserver(handleIntersection);
 function handleIntersection(entries) {
-  entries.forEach((entry) => {
+  entries.map((entry) => {
     if (entry.isIntersecting) {
       entry.target.classList.add("show");
     } else {
@@ -21,17 +21,27 @@ function handleIntersection(entries) {
     }
   });
 }
-let target = document.querySelectorAll(".profile-img");
-//let target2 = document.querySelector(".more-btn ");
-//let target3 = document.querySelector(".page1-h");
-//let target4 = document.querySelector(".page1-p");
-//let target5 = document.querySelector(".profile-img2");
+
+let target = document.querySelector(".profile-img");
+let target2 = document.querySelector(".more-btn ");
+let target3 = document.querySelector(".page1-h");
+let target4 = document.querySelector(".page1-p");
+let target5 = document.querySelector(".profile-img2");
 let target6 = document.querySelector(".about-h");
 let target7 = document.querySelector(".about-box");
 let target8 = document.querySelector(".socials-page-1");
 let target9 = document.querySelector(".exp-h");
 let target10 = document.querySelector(".projects-h1");
-target.forEach((el) => observer.observe(el));
+observer.observe(target);
+observer.observe(target2);
+observer.observe(target3);
+observer.observe(target4);
+observer.observe(target5);
+observer.observe(target6);
+observer.observe(target7);
+observer.observe(target8);
+observer.observe(target9);
+observer.observe(target10);
 //target2.forEach((el) => observer.observe(el));
 //target3.forEach((el) => observer.observe(el));
 //target5.forEach((el) => observer.observe(el));
@@ -72,3 +82,11 @@ let target33 = document.querySelector(".project-3");
 observer3.observe(target31);
 observer3.observe(target32);
 observer3.observe(target33);
+
+var button = document.getElementById("toggle-switch");
+var mode = document.querySelector(".light-mode");
+var mode2 = document.querySelector(".dark-mode");
+button.addEventListener("click", function () {
+  mode.classList.toggle("active");
+  mode2.classList.toggle("active2");
+});

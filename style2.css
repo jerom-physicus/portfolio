@@ -73,10 +73,10 @@ nav ul li a {
   line-height: 35px;
   font-size: 20px;
 }
-.profile-img2 {
+.profile-img2-D {
   display: none;
 }
-.profile-img {
+.profile-img-D {
   position: absolute;
   height: 450px;
   width: 450px;
@@ -85,19 +85,19 @@ nav ul li a {
   top: 80px;
   right: 15%;
 }
-.socials-page-1 {
+.socials-page-1-D {
   position: relative;
   left: 140px;
   top: 120px;
   width: fit-content;
 }
-.socials-page-1 img {
+.socials-page-1-D img {
   position: relative;
   width: 35px;
   margin: 20px;
   opacity: 70%;
 }
-.more-btn {
+.more-btn-D {
   position: relative;
   top: 150px;
   border-radius: 16px;
@@ -116,12 +116,12 @@ nav ul li a {
   display: grid;
   place-items: center;
 }
-.about-h {
+.about-h-D {
   position: relative;
   font-size: 50px;
   text-align: center;
 }
-.about-box {
+.about-box-D {
   position: relative;
   top: 80px;
 
@@ -130,7 +130,7 @@ nav ul li a {
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.325);
 }
-.about-box p {
+.about-p-D {
   padding: 50px;
   line-height: 30px;
   font-size: 17px;
@@ -141,10 +141,10 @@ nav ul li a {
   place-items: center;
   top: 900px;
 }
-.Exp-in h1 {
+.Exp-in-D {
   font-size: 50px;
 }
-.logos {
+.logos-D {
   position: relative;
   top: 60px;
   width: 50%;
@@ -154,7 +154,7 @@ nav ul li a {
   flex-direction: row;
   gap: 15%;
 }
-.logos img {
+.logos-D img {
   position: relative;
   width: 60px;
   height: 60px;
@@ -199,7 +199,7 @@ nav ul li a {
   text-align: center;
   font-size: 50px;
 }
-.project-1 {
+.project-1-D {
   position: relative;
   background-color: rgba(255, 255, 255, 0.355);
   width: 357px;
@@ -209,7 +209,7 @@ nav ul li a {
   top: 60px;
   left: 20%;
 }
-.project-1 p {
+.project-1-D p {
   width: 350px;
   padding: 15px;
 }
@@ -313,7 +313,7 @@ nav ul li a {
   font-weight: 600;
 }
 
-.project-2 {
+.project-2-D {
   position: absolute;
   background-color: rgba(255, 255, 255, 0.355);
   width: 356px;
@@ -323,7 +323,7 @@ nav ul li a {
   top: 120px;
   right: 20%;
 }
-.project-2 p {
+.project-2-D p {
   width: 350px;
   padding: 15px;
 }
@@ -377,7 +377,7 @@ nav ul li a {
   border: #ffffff solid 1px;
   font-weight: 600;
 }
-.project-3 {
+.project-3-D {
   position: relative;
   background-color: rgba(255, 255, 255, 0.355);
   width: 356px;
@@ -387,7 +387,7 @@ nav ul li a {
   top: 120px;
   left: 20%;
 }
-.project-3 p {
+.project-3-D p {
   position: absolute;
   top: 430px;
   width: fit-content;
@@ -396,7 +396,7 @@ nav ul li a {
   color: #000;
   border-radius: 0px 0px 30px 30px;
 }
-.project-3 .lan {
+.project-3-D .lan {
   position: relative;
   top: 35px;
 }
@@ -490,7 +490,7 @@ nav ul li a {
   opacity: 60%;
 }
 .summa {
-  color: #000000;
+  color: #fcfcfc;
   position: relative;
   top: 860px;
   left: 35%;
@@ -575,7 +575,10 @@ nav ul li a {
     line-height: 35px;
     font-size: 20px;
   }
-  .profile-img2 {
+  .profile-img-D {
+    display: none;
+  }
+  .profile-img2-D {
     display: block;
     height: 250px;
     width: 250px;
@@ -589,7 +592,7 @@ nav ul li a {
   .profile-img {
     display: none;
   }
-  .socials-page-1 {
+  .socials-page-1-D {
     position: relative;
     left: 30px;
     top: 40px;
@@ -601,37 +604,26 @@ nav ul li a {
     margin: 10px;
     opacity: 70%;
   }
-  .more-btn {
-    position: relative;
-    top: 150px;
-    border-radius: 16px;
-    background: #000;
-    color: rgb(255, 255, 255);
-    height: 45px;
-    width: 135px;
-    font-weight: 500;
-    font-size: 18px;
-    border-style: none;
-    left: 190px;
+  .more-btn-D {
     display: none;
   }
-  .about-h {
+  .about-h-D {
     top: 30px;
     font-size: 40px;
   }
-  .about-box {
+  .about-box-D {
     width: 90%;
     height: fit-content;
   }
-  .Exp-in h1 {
+  .Exp-in-D h1 {
     font-size: 40px;
   }
-  .logos {
+  .logos-D {
     width: 93%;
     gap: 10%;
   }
 
-  .logos img {
+  .logos-D img {
     right: 0px;
     width: 40px;
     height: 40px;
@@ -674,47 +666,46 @@ nav ul li a {
   .projects h1 {
     font-size: 40px;
   }
-  .project-1 {
+  .project-1-D {
     position: relative;
     background-color: rgba(255, 255, 255, 0.355);
-    width: 90%;
+    width: 330px;
     height: 530px;
     border-radius: 35px;
     border: #ffffff solid 1px;
     top: 60px;
     left: 0%;
   }
-  .project-1 img {
+  .project-1-D img {
     width: 100%;
   }
-  .project-2 img {
+  .project-2-D img {
     width: 100%;
   }
   .lan2 :nth-child(3) {
     width: 80px;
   }
-  .project-3 img {
+  .project-3-D img {
     width: 100%;
   }
-  .project-2 {
+  .project-2-D {
     position: relative;
     left: 0%;
-    width: 90%;
+    width: 330px;
   }
-  .project-3 {
+  .project-3-D {
     position: relative;
     top: 170px;
     left: 0%;
-    width: 90%;
+    width: 330px;
   }
-  .project-3 h6 {
+  .project-3-D h6 {
     top: 50px;
   }
   .input-box {
     top: 750px;
     left: 30px;
-    width: 80%;
-    background-color: #815cfc;
+    width: 85%;
   }
   .input-box input {
     font-size: 15px;
